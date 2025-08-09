@@ -1,0 +1,12 @@
+{
+  "name": "er-ant-lints",
+  "version": "1.0.0",
+  "description": "Lint rules by er-ant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "er-ant",
+  "license": "ISC"
+}
