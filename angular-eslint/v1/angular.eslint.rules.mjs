@@ -1,4 +1,4 @@
-const ANGULAR_ESLINTRULES = {
+export const ANGULAR_ESLINTRULES = {
   // Basic angular code rules
   "@angular-eslint/contextual-lifecycle": ["error"],
   "@angular-eslint/no-async-lifecycle-method": ["error"],

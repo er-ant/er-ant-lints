@@ -1,4 +1,4 @@
-const ANGULAR_TEMPLATE_ESLINTRULES = {
+export const ANGULAR_TEMPLATE_ESLINTRULES = {
   // Basic template rules
   "@angular-eslint/template/no-duplicate-attributes": ["error"],
   "@angular-eslint/template/no-nested-tags": ["error"],
