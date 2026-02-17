@@ -49,7 +49,8 @@ export const TS_ESLINTRULES = {
   "@typescript-eslint/no-empty-function": "off",
   "@typescript-eslint/no-empty-object-type": "off",
   "@typescript-eslint/no-extra-non-null-assertion": "error",
-  "@typescript-eslint/no-extraneous-class": "error",
+  // Good rule, can be configured too
+  "@typescript-eslint/no-extraneous-class": "off",
   "@typescript-eslint/no-floating-promises": "error",
   "@typescript-eslint/no-for-in-array": "error",
   "no-implied-eval": "off",

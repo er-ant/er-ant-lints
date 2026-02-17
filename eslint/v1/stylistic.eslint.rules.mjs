@@ -79,10 +79,12 @@ export const STYLISTIC_ESLINTRULES = {
   "@stylistic/object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
   "@stylistic/one-var-declaration-per-line": ["error", "always"],
   "@stylistic/operator-linebreak": ["error", "after"],
-  "@stylistic/padded-blocks": ["error", "never"],
+  // Good rule, but cannot be configured properly
+  "@stylistic/padded-blocks": ["off"],
   "@stylistic/padding-line-between-statements": ["error",
-    { "blankLine": "always", "prev": ["case", "default", "directive", "if"], "next": "*" },
+    { "blankLine": "always", "prev": ["default", "directive", "if"], "next": "*" },
     { "blankLine": "always", "prev": "*", "next": ["return", "if"] },
+    { "blankLine": "always", "prev": "case", "next": "default" }
   ],
   "@stylistic/quote-props": ["error", "as-needed"],
   "@stylistic/quotes": ["error", "single", { "allowTemplateLiterals": false }],

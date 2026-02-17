@@ -203,7 +203,8 @@ export const ESLINTRULES = {
     "ignoreReadBeforeAssign": true
   }],
   "prefer-exponentiation-operator": ["off"],
-  "prefer-named-capture-group": ["error"],
+  // Makes code much more complicated with named capture groups
+  "prefer-named-capture-group": ["off"],
   "prefer-numeric-literals": ["off"],
   "prefer-promise-reject-errors": ["error"],
   "prefer-regex-literals": ["off"],
