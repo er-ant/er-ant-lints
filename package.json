@@ -1,6 +1,6 @@
 {
   "name": "er-ant-lints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lint rules by er-ant.",
   "main": "index.js",
   "scripts": {
