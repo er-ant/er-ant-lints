@@ -72,7 +72,11 @@ export const ESLINTRULES = {
   "no-await-in-loop": ["error"],
   "no-promise-executor-return": ["error"],
   // Advanced code style rules
-  "accessor-pairs": ["error"],
+  "accessor-pairs": ["error", {
+    setWithoutGet: true,
+    getWithoutSet: false,
+    enforceForClassMembers: false
+  }],
   // Turned off as it wants developers to unwrap array, this reduces readability
   "arrow-body-style": ["off", "as-needed", {
     "requireReturnForObjectLiteral": true
@@ -98,7 +102,7 @@ export const ESLINTRULES = {
     "generators": "as-needed"
   }],
   "func-style": ["error", "declaration", { "allowArrowFunctions": true }],
-  "grouped-accessor-pairs": ["error", "getBeforeSet"],
+  "grouped-accessor-pairs": ["off"],
   "guard-for-in": ["off"],
   "init-declarations": ["off"],
   "logical-assignment-operators": ["error"],
